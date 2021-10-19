@@ -1,0 +1,13 @@
+Package: zlib
+Type: Package
+Title: Zane's R Library
+Version: 0.0.1
+Author: Zane Billings
+Maintainer: Zane Billings <wz.billings@gmail.com>
+Description: Miscellaneous functions written by Zane
+    These are all functions that I wanted to use multiple times.
+    I was tired of copy and pasting so I made my own package.
+License: AGPL (>= 3)
+Encoding: UTF-8
+LazyData: true
+RoxygenNote: 7.1.2
