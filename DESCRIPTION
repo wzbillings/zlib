@@ -1,6 +1,6 @@
 Package: zlib
 Type: Package
-Title: Zane's R Library
+Title: Zane's R Package
 Version: 0.0.1
 Author: Zane Billings
 Maintainer: Zane Billings <wz.billings@gmail.com>
