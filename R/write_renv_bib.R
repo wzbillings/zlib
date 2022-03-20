@@ -11,12 +11,12 @@
 write_renv_bib <- function(filepath = "./pkgs.bib") {
   # Check that jsonlite and knitr are both installed!
   if (!utils::requireNamepsace("jsonlite", quietly = TRUE)) {
-    stop("ℹ You do not have the package 'jsonlite'.\n",
-         "✖ zlib::write_renv_bib() will throw an error without this pkg.")
+    stop("\u2139 You do not have the package 'jsonlite'.\n",
+         "\u2716 zlib::write_renv_bib() will throw an error without this pkg.")
   }
   if (!utils::requireNamepsace("knitr", quietly = TRUE)) {
-    stop("ℹ You do not have the package 'knitr'.\n",
-         "✖ zlib::write_renv_bib() will throw an error without this pkg.")
+    stop("\u2139 You do not have the package 'knitr'.\n",
+         "\u2716 zlib::write_renv_bib() will throw an error without this pkg.")
   }
 
   renvLock <- jsonlite::read_json("renv.lock")
