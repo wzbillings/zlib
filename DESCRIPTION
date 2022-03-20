@@ -12,3 +12,6 @@ Encoding: UTF-8
 LazyData: true
 RoxygenNote: 7.1.2
 Date: 2021-10-19
+Suggests: 
+    jsonlite,
+    knitr
