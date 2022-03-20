@@ -1,6 +1,6 @@
 #' Create a bibliography file of all renv package dependencies
 #'
-#' See https://github.com/rstudio/renv/issues/340 for more detail
+#' See \link{https://github.com/rstudio/renv/issues/340} for more detail
 #'
 #' @param filepath The ('.bib') file to write, passed on to knitr::write_bib().
 #'
