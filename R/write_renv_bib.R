@@ -6,6 +6,8 @@
 #'     knitr::write_bib().
 #' @export
 #'
+#' See https://github.com/rstudio/renv/issues/340 for more details
+#'
 write_renv_bib <- function(filepath = "./pkgs.bib") {
   renvLock <- jsonlite::read_json("renv.lock")
   knitr::write_bib(x = names(renvLock$Packages), file = filepath)
