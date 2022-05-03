@@ -13,5 +13,6 @@ LazyData: true
 RoxygenNote: 7.1.2
 Date: 2021-10-19
 Suggests: 
+    ggplot2,
     jsonlite,
     knitr
